@@ -1,0 +1,159 @@
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 217, 223);
+  .loginWrapper {
+    background-color: white;
+    width: 200px;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      padding: 10px;
+      span {
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+      }
+      input {
+        padding: 5px;
+        letter-spacing: 1px;
+      }
+      button {
+        padding: 5px;
+        background-color: pink;
+      }
+    }
+  }
+}
+.regContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 221, 161);
+  .regWrapper {
+    background-color: white;
+    width: 200px;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      padding: 10px;
+      span {
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+      }
+      input {
+        padding: 5px;
+        letter-spacing: 1px;
+      }
+      button {
+        padding: 5px;
+        background-color: orange;
+      }
+    }
+  }
+}
+.home {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 196, 255);
+  .blogContainer {
+    background-color: white;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      padding: 10px;
+      input {
+        padding: 5px;
+        letter-spacing: 1px;
+      }
+      textarea {
+        font-size: 12px;
+        padding: 5px;
+        letter-spacing: 1px;
+      }
+      button {
+        padding: 10px;
+        background-color: rgb(113, 113, 247);
+      }
+    }
+  }
+}
+
+.Nav {
+  background-color: rgb(113, 113, 247);
+  width: 100vw;
+  padding: 8px 0px;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  .logout {
+    background-color: rgb(196, 196, 255);
+    margin-right: 10px;
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+.blogsContainer {
+  background-color: rgb(160, 251, 221);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .blogsWrapper {
+    margin: 20px 0px;
+    width: 50%;
+    .blogContainer {
+      background-color: white;
+      margin-bottom: 10px;
+      padding: 10px;
+      .blog-header {
+        display: flex;
+
+        .blog-title {
+          flex: 1;
+        }
+        .btn-container {
+          display: flex;
+          gap: 10px;
+          .edit {
+            padding: 2px 5px;
+            border: none;
+            &:hover {
+              background-color: skyblue;
+            }
+          }
+          .delete {
+            padding: 2px 5px;
+            border: none;
+            &:hover {
+              background-color: red;
+            }
+          }
+        }
+      }
+      .blog-body {
+        padding: 5px 0px;
+      }
+      .blog-footer {
+      }
+    }
+  }
+}
